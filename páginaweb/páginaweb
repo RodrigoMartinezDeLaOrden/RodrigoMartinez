@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lugares Interesantes para Visitar</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
 
+<!-- Barra de Navegación -->
+<div class="w3-bar w3-black">
+  <a href="#" class="w3-bar-item w3-button">Inicio</a>
+  <a href="#paris" class="w3-bar-item w3-button">París</a>
+  <a href="#tokyo" class="w3-bar-item w3-button">Tokio</a>
+  <a href="#rio" class="w3-bar-item w3-button">Río de Janeiro</a>
+</div>
+
+<!-- Contenido -->
+<div class="w3-container">
+  <h2>Lugares Interesantes para Visitar</h2>
+  <p>¡Bienvenido! Aquí encontrarás información sobre algunos lugares fascinantes en el mundo.</p>
+</div>
+
+<!-- París -->
+<div id="paris" class="w3-container w3-padding-64">
+  <h2>París</h2>
+  <p>París, la Ciudad de la Luz, es famosa por su cultura, su historia y su romance. Algunos de los lugares más destacados para visitar en París son la Torre Eiffel, el Louvre y la Catedral de Notre Dame.</p>
+  <img src="paris.jpg" alt="París" style="width:100%;">
+</div>
+
+<!-- Tokio -->
+<div id="tokyo" class="w3-container w3-padding-64">
+  <h2>Tokio</h2>
+  <p>Tokio, la bulliciosa capital de Japón, es conocida por su tecnología de vanguardia, su comida deliciosa y su cultura única. Algunos lugares interesantes para visitar en Tokio son el Templo Senso-ji, el cruce de Shibuya y el mercado de pescado de Tsukiji.</p>
+  <img src="tokyo.jpg" alt="Tokio" style="width:100%;">
+</div>
+
+<!-- Río de Janeiro -->
+<div id="rio" class="w3-container w3-padding-64">
+  <h2>Río de Janeiro</h2>
+  <p>Río de Janeiro, ubicado en Brasil, es famoso por sus playas hermosas, su carnaval vibrante y su impresionante paisaje. Algunos lugares que no te puedes perder en Río de Janeiro son el Cristo Redentor, el Pan de Azúcar y las playas de Copacabana e Ipanema.</p>
+  <img src="rio.jpg" alt="Río de Janeiro" style="width:100%;">
+</div>
+
+</body>
+</html>
